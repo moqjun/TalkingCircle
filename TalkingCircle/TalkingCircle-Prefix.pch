@@ -1,0 +1,76 @@
+//
+//  TalkingCircle-Prefix.pch
+//  TalkingCircle
+//
+//  Created by zhaoYuan on 17/4/4.
+//  Copyright © 2017年 gongziyuan. All rights reserved.
+//
+
+//#ifndef TalkingCircle_Prefix_pch
+
+#define TalkingCircle_Prefix_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "NetworkDefine.h"
+#import "NetFuncid.h"
+#import "JSON.h"
+#import "TCToolMacroDefinition.h"
+#import "UIColor+Extend.h"
+#import "UIView+Extend.h"
+#import "NSString+Extend.h"
+#import "UIUtil.h"
+#import "NetServiceUtils.h"
+#import "NSArray+Safe.h"
+#import "NSMutableArray+Safe.h"
+#import "NSMutableDictionary+Safe.h"
+#import "TCGlobalUICommon.h"
+#import "TCNetBaseData.h"
+#import "NSString+Hash.h"
+#import "UITextView+Placeholder.h"
+
+//search
+#import "UISearchBar+JCSearchBarPlaceholder.h"
+
+//chat
+#import "ChatDemoUIDefine.h"
+#import "EMAlertView.h"
+#import "TTGlobalUICommon.h"
+
+#import "EaseUI.h"
+#import "UIViewController+HUD.h"
+#import "MBProgressHUD.h"
+
+#import "UIImageView+HeadImage.h"
+
+#import "macros.h"
+#import "common.h"
+#import "Masonry.h"
+
+#pragma mark - Category
+#import "NSString+MQ.h"
+#import "UIDevice+MQ.h"
+#import "UIImage+MQ.h"
+#import "UIView+MQ.h"
+
+#import "EaseCommonUserDefault.h"
+
+#define DEMO_CALL 1
+
+#import <Hyphenate/Hyphenate.h>
+
+#define verifyCodeEffectiveTime 90
+
+//noti
+
+#define NSNotificationNoLogin @"NSNotificationNoLogin"
+
+#define kTCRedpacketIdentificationString @"redPacket"
+#define kTCRedpacketTypeKey @"type"
+
+
+
+#endif /* TalkingCircle_Prefix_pch */
